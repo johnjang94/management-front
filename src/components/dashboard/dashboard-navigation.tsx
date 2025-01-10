@@ -105,7 +105,7 @@ export default function DashboardNav({
 
   return (
     <div
-      className="group md:flex md:flex-col w-14 hover:w-40 bg-primary-dark-brown text-white text-xl space-y-3 hover:cursor-pointer transition-all duration-300 hidden "
+      className="group md:flex md:flex-col fixed left-0 top-18 h-full w-14 hover:w-40 bg-primary-dark-brown text-white text-xl space-y-3 cursor-pointer transition-all duration-300"
       onMouseEnter={() => onHover(true)}
       onMouseLeave={() => onHover(false)}
     >

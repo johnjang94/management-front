@@ -47,7 +47,7 @@ export default function DashboardHeader({
   }, [isMenuOpen]);
 
   return (
-    <div className="bg-primary-dark-brown flex items-center justify-between px-9 relative">
+    <div className="bg-primary-dark-brown flex items-center justify-between px-9 h-[3.75rem] fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center gap-5">
         <RxHamburgerMenu
           className="text-white text-2xl cursor-pointer md:hidden block"
@@ -67,7 +67,11 @@ export default function DashboardHeader({
       </div>
       <div className="w-2/6 px-2 rounded-lg p-1 items-center flex bg-white justify-start">
         <MdOutlineSearch className="text-xl" />
-        <input type="text" placeholder="Search" className="w-full px-2" />
+        <input
+          type="text"
+          placeholder="Search"
+          className="w-full px-2 outline-none"
+        />
       </div>
       <div className="flex items-center gap-4 relative">
         <CgProfile className="text-white text-2xl" />
@@ -78,7 +82,7 @@ export default function DashboardHeader({
         {isMenuOpen && (
           <div
             ref={menuRef}
-            className="absolute top-8 right-0 shadow-lg rounded-lg -left-20"
+            className="absolute top-8 right-0 shadow-lg rounded-lg -left-20 z-50"
           >
             <Link to="/settings">
               <button

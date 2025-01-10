@@ -1,12 +1,10 @@
+import { useOutletProps } from "@/hooks/use-outlet-props";
 import FourBlocks from "./four-blocks";
 import Reports from "./reports";
 import Summary from "./summary";
 
-interface FinancialProps {
-  isNavHovered: boolean;
-}
-
-export default function FinancialPerformance({ isNavHovered }: FinancialProps) {
+export default function FinancialPerformance() {
+  const { isNavHovered } = useOutletProps();
   return (
     <div className="w-full px-10">
       <div className="space-y-28 my-10">
