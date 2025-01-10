@@ -1,0 +1,52 @@
+{
+  "checkIns": [
+    {
+      "id": 1,
+      "name": "Mrs. Watson",
+      "room": "Room 307",
+      "dateTime": "10/10 - 15/10, 17 PM",
+      "status": "Awaiting",
+      "profileImage": ""
+    },
+    {
+      "id": 2,
+      "name": "Mr. Watson",
+      "room": "Room 307",
+      "dateTime": "10/10 - 15/10, 17 PM",
+      "status": "Awaiting",
+      "profileImage": ""
+    },
+    {
+      "id": 3,
+      "name": "Mr. Watson Junior",
+      "room": "Room 307",
+      "dateTime": "10/10 - 15/10, 17 PM",
+      "status": "Awaiting",
+      "profileImage": ""
+    },
+    {
+      "id": 4,
+      "name": "Mr. Watson Junior",
+      "room": "Room 307",
+      "dateTime": "10/10 - 15/10, 17 PM",
+      "status": "Awaiting",
+      "profileImage": ""
+    },
+    {
+      "id": 5,
+      "name": "Mr. Watson Junior",
+      "room": "Room 307",
+      "dateTime": "10/10 - 15/10, 17 PM",
+      "status": "Awaiting",
+      "profileImage": ""
+    },
+    {
+      "id": 6,
+      "name": "Mr. Watson Junior",
+      "room": "Room 307",
+      "dateTime": "10/10 - 15/10, 17 PM",
+      "status": "Awaiting",
+      "profileImage": ""
+    }
+  ]
+}

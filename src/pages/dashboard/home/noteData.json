@@ -1,0 +1,46 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "date": "15/09/2024",
+      "room": "Room 201",
+      "name": "Mrs. Mason",
+      "summary": "Room 201 has requested an early check-in at..."
+    },
+    {
+      "id": 2,
+      "date": "15/09/2024",
+      "room": "Room 201",
+      "name": "Mrs. Mason",
+      "summary": "Room 201 has requested an early check-in at..."
+    },
+    {
+      "id": 3,
+      "date": "15/09/2024",
+      "room": "Room 201",
+      "name": "Mrs. Mason",
+      "summary": "Room 201 has requested an early check-in at..."
+    },
+    {
+      "id": 4,
+      "date": "15/09/2024",
+      "room": "Room 201",
+      "name": "Mrs. Mason",
+      "summary": "Room 201 has requested an early check-in at..."
+    },
+    {
+      "id": 5,
+      "date": "15/09/2024",
+      "room": "Room 201",
+      "name": "Mrs. Mason",
+      "summary": "Room 201 has requested an early check-in at..."
+    },
+    {
+      "id": 6,
+      "date": "15/09/2024",
+      "room": "Room 201",
+      "name": "Mrs. Mason",
+      "summary": "Room 201 has requested an early check-in at..."
+    }
+  ]
+}

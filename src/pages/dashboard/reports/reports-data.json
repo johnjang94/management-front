@@ -1,0 +1,23 @@
+[
+  {
+    "revenue": "Paid",
+    "accountNumber": "12345",
+    "accountName": "Credit Card",
+    "revenueAmount": "$250.00",
+    "status": "active"
+  },
+  {
+    "revenue": "Pending",
+    "accountNumber": "67890",
+    "accountName": "Debit Card",
+    "revenueAmount": "$100.00",
+    "status": "inactive"
+  },
+  {
+    "revenue": "Overdue",
+    "accountNumber": "11223",
+    "accountName": "Savings Account",
+    "revenueAmount": "$300.00",
+    "status": "active"
+  }
+]

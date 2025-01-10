@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Cabin:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Ubuntu", sans-serif;
+  background-color: var(--primary-cream);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+
+  --primary-dark-brown: #220606;
+  --primary-cream: #fefff8;
+  --primary-poppy: #da3933;
+  --secondary-colors-saffron: #fec757;
+  --secondary-colors-jasper: #ff3b54;
+  --secondary-colors-tan: #e79664;
+  --secondary-colors-tan-alternate: #dcbca7;
+  --secondary-colors-tan-alternate-2: #ffe4c6;
+  --secondary-colors-tropical-indigo: #9897d4;
+  --secondary-colors-light-lavender: #e1dfff;
+  --secondary-colors-light-coral: #e98885;
+  --secondary-colors-native-red: #e1615c;
+  --secondary-colors-misty-rose: #ffe4e2;
+  --secondary-colors-jasmine: #fed279;
+  --secondary-colors-peach-yellow: #fedd9a;
+  --secondary-colors-papaya: #ffdd97;
+  --greys-night-black: #121212;
+  --greys-jet: #353535;
+  --greys-battleship-grey: #999;
+  --greys-anti-flash-white: #ededed;
+  --greys-white: #fff;
+  --greys-background-white: #f1f1f1;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
