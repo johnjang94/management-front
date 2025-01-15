@@ -1,8 +1,10 @@
-import { useOutletProps } from "@/hooks/use-outlet-props";
 import { CgProfile } from "react-icons/cg";
 
-export default function Settings() {
-  const { isNavHovered } = useOutletProps();
+interface SettingsProp {
+  isNavHovered: boolean;
+}
+
+export default function Settings({ isNavHovered }: SettingsProp) {
   return (
     <div className="w-full px-10">
       <div className="space-y-28 my-10">

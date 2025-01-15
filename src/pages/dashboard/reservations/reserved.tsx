@@ -1,8 +1,10 @@
-import { useOutletProps } from "@/hooks/use-outlet-props";
 import { useEffect } from "react";
 
-export default function Reserved() {
-  const { isNavHovered } = useOutletProps();
+interface ReservedProps {
+  isNavHovered: boolean;
+}
+
+export default function Reserved({ isNavHovered }: ReservedProps) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

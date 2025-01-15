@@ -1,4 +1,3 @@
-import { useOutletProps } from "@/hooks/use-outlet-props";
 import { useEffect, useState } from "react";
 import { CgProfile } from "react-icons/cg";
 import { RiPencilLine } from "react-icons/ri";
@@ -136,10 +135,14 @@ const ProfileView = ({
 interface MyAccountProps {
   setUserName: (name: string) => void;
   userName: string;
+  isNavHovered: boolean;
 }
 
-const MyAccount: React.FC<MyAccountProps> = ({ setUserName, userName }) => {
-  const { isNavHovered } = useOutletProps();
+const MyAccount: React.FC<MyAccountProps> = ({
+  setUserName,
+  userName,
+  isNavHovered,
+}: MyAccountProps) => {
   const [isEditing, setIsEditing] = useState(false);
   const [profilePicture, setProfilePicture] = useState<string | null>(null);
   const [tempName, setTempName] = useState(userName);

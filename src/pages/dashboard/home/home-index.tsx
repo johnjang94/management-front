@@ -4,14 +4,13 @@ import Room from "./room";
 import ReservationStatus from "./reservation-status";
 import Notes from "./notes";
 import Housekeeping from "./house-keeping";
-import { useOutletProps } from "@/hooks/use-outlet-props";
 
 interface HomeProps {
   name: string;
+  isNavHovered: boolean;
 }
 
-export default function Home({ name }: HomeProps) {
-  const { isNavHovered } = useOutletProps();
+export default function Home({ name, isNavHovered }: HomeProps) {
   return (
     <div className="w-full px-10">
       <div className="space-y-28 my-10">
