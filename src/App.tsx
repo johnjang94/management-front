@@ -65,17 +65,29 @@ function App() {
           />
         }
       >
-        <Route path="/dashboard" element={<Home name={userName} />} />
-        <Route path="/reservations" element={<Reserved />} />
+        <Route
+          path="/dashboard"
+          element={<Home name={userName} isNavHovered={false} />}
+        />
+        <Route
+          path="/reservations"
+          element={<Reserved isNavHovered={false} />}
+        />
         <Route path="/guests" element={<Guest />} />
         <Route path="/reports" element={<FinancialPerformance />} />
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/housekeeping" element={<Housekeeping />} />
         <Route
           path="/account"
-          element={<MyAccount userName={userName} setUserName={setUserName} />}
+          element={
+            <MyAccount
+              userName={userName}
+              setUserName={setUserName}
+              isNavHovered={false}
+            />
+          }
         />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/settings" element={<Settings isNavHovered={false} />} />
       </Route>
     </Routes>
   );
